@@ -34,10 +34,5 @@ export const ScoreBoard: React.FC = () => {
     };
   }, []);
 
-  return (
-    <div>
-      {`Home - ${score.home}`}
-      {`Away - ${score.away}`}
-    </div>
-  );
+  return <div>{`Home:${score.home} - Away:${score.away}`}</div>;
 };

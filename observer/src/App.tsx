@@ -19,6 +19,7 @@ function App() {
   return (
     <div>
       <ScoreBoard />
+      <hr />
       <GoalHistory />
     </div>
   );
