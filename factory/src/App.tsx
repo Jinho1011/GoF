@@ -1,7 +1,8 @@
 import React from "react";
+import InputForm from "./components/InputForm";
 
 function App() {
-  return <div>Hello, Factory</div>;
+  return <InputForm />;
 }
 
 export default App;
